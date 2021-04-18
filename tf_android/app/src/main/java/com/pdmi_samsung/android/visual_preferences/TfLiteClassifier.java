@@ -9,6 +9,7 @@ import android.util.Log;
 import com.pdmi_samsung.android.visual_preferences.db.ClassifierResult;
 
 import org.tensorflow.lite.Interpreter;
+import org.tensorflow.lite.experimental.GpuDelegate;
 
 import java.io.FileInputStream;
 import java.io.IOException;
