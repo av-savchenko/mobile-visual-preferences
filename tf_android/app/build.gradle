@@ -1,0 +1,126 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
+    defaultConfig {
+        applicationId "android.pdmi_samsung.com.visual_preferences"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+        resValue "string", "google_maps_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+
+        ndk {
+            abiFilters "armeabi", "x86"
+        }
+        /*ndk {
+            moduleName "OpenCvDetectionLib"
+        }*/
+    }
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+    /*task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
+        commandLine '/Users/avsavchenko/Library/Android/sdk/ndk-bundle/ndk-build',
+                'NDK_PROJECT_PATH=build/intermediates/ndk',
+                'NDK_LIBS_OUT=src/main/libs',
+                'APP_BUILD_SCRIPT=src/main/jni/Android.mk',
+                'NDK_APPLICATION_MK=src/main/jni/Application.mk'
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }*/
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    aaptOptions {
+        noCompress "tflite"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'arm64-v8a'
+            universalApk true
+        }
+    }
+}
+
+repositories {
+    maven {
+        //url 'https://mvnrepository.com/artifact/com.androidplot/androidplot-core'
+        url 'https://jitpack.io'
+    }
+    maven {
+        url 'https://google.bintray.com/tensorflow'
+    }
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.takisoft.fix:preference-v7:26.1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.annotation:annotation:1.1.0'
+
+    //implementation 'org.apache.commons:commons-math3:+'
+    //implementation 'com.android.support:support-v13:25.2.0'
+
+    implementation 'com.google.firebase:firebase-core:+'
+    implementation 'com.google.firebase:firebase-ml-common:+'
+    implementation 'com.google.firebase:firebase-ml-vision:+'
+    implementation 'com.google.android.gms:play-services-vision:20.1.1'
+    implementation 'com.google.android.gms:play-services-vision-common:19.1.1'
+
+    //implementation 'org.tensorflow:tensorflow-android:+'
+    //implementation 'org.tensorflow:tensorflow-lite:1.15.0'
+    implementation 'org.tensorflow:tensorflow-lite:0.0.0-gpu-experimental'
+
+    //implementation project(':tensorflow-lite')
+    //implementation(name: 'libandroid_tensorflow_inference_java', ext: 'jar')
+    //implementation(name:'openCVLibrary341-release', ext:'aar')
+    //implementation(name: 'tensorflow-lite', ext: 'aar')
+
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.github.kittinunf.fuel:fuel:2.0.1'
+    implementation 'com.github.kittinunf.fuel:fuel-json:2.0.1'
+    implementation 'com.github.kittinunf.fuel:fuel-android:2.0.1'
+    implementation 'com.google.android.gms:play-services-maps:+'
+    implementation 'com.google.android.gms:play-services-location:+'
+    //implementation project(':openCVLibrary341')
+
+    //implementation 'org.achartengine:achartengine:1.2.0'
+    //implementation(name: 'achartengine-1.2.0', ext: 'jar')
+
+    //implementation "com.androidplot:androidplot-core:1.5.6"
+    //implementation group: 'com.androidplot', name: 'androidplot-core', version: '1.5.6'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation "com.android.support:exifinterface:+"
+
+    //implementation(name: 'clust4j-1.2.4-SNAPSHOT', ext: 'jar')
+}

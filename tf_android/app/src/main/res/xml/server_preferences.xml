@@ -1,0 +1,55 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+    <PreferenceCategory android:title="Server settings">
+
+        <SwitchPreferenceCompat
+            android:key="use_server"
+            android:title="Use Server"
+            android:summary="Process photos on the server"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:key="server_address"
+            android:title="Server Ip Address"
+            android:dialogMessage="Ip Address of server with launched flask_server/service.py"
+            android:defaultValue="http://35.196.35.135"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789."/>
+
+        <EditTextPreference
+            android:key="server_port"
+            android:title="Server port"
+            android:dialogMessage="Port to connect (default value is appropriate)"
+            android:defaultValue="5000"
+            android:inputType="number|numberDecimal"
+            android:digits="0123456789" />
+
+        <EditTextPreference
+            android:key="server_username"
+            android:title="Username"
+            android:dialogMessage="Username  (default value is appropriate)"
+            android:defaultValue="defaultUser" />
+
+        <EditTextPreference
+            android:key="server_password"
+            android:title="Password"
+            android:dialogMessage="Password (default value is appropriate)"
+            android:defaultValue="password" />
+
+        <SwitchPreferenceCompat
+            android:key="send_private_photos_to_server"
+            android:title="Send private photos to server"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+-->
+    <EditTextPreference
+        android:key="min_days_between_photo_dates"
+        android:title="Number of days between facial photos"
+        android:dialogMessage="Minimum number of days between photos to display a person in demography"
+        android:defaultValue="1"
+        android:inputType="number"
+        android:digits="0123456789" />
+
+</PreferenceScreen>
