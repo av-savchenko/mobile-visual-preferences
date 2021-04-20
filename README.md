@@ -4,5 +4,5 @@ Our approach is described in the latest version of [arXiv paper](https://arxiv.o
 
 Required: Android Studio, Gradle, Flask (for support of client-server object detection)
 
-In order to check the possibility to seacrh nearby places, you must set your API_KEY in [MapsActivity.kt](tf_android/app/src/main/java/com/pdmi_samsung/android/visual_preferences/MapsActivity.kt) [enable Billing on the Google Cloud Project](https://console.cloud.google.com/project/_/billing/enable)
+In order to check the possibility to seacrh nearby places, you must set your API_KEY of Places Query in [MapsActivity.kt](tf_android/app/src/main/java/com/pdmi_samsung/android/visual_preferences/MapsActivity.kt) and [enable Billing on the Google Cloud Project](https://console.cloud.google.com/project/_/billing/enable). Learn more at [Google Maps](https://developers.google.com/maps/gmp-get-started)
 
