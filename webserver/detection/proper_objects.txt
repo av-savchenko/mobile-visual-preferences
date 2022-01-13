@@ -1,0 +1,146 @@
+sport places=Football=6
+food=Apple=15
+food=Beer=20
+food=Chopsticks=21
+food=Croissant=26
+food=Cucumber=27
+food=Radish=28
+sport places=Ball=5
+food=Hot dog=48
+food=Fast food=50
+food=Waffle=51
+food=Pancake=62
+food=Pretzel=66
+food=Bagel=67
+activity places=Bow and arrow=71
+activity places=Swimwear=72
+food=Popcorn=78
+food=Burrito=79
+food=Cheese=101
+food=Muffin=110
+food=Snack=112
+activity places=Jet ski=118
+places=Bronze sculpture=124
+food=Juice=125
+places=Cannon=128
+food=Cookie=130
+places=Fountain=132
+food=Cocktail=135
+holidays=Christmas tree=139
+activity places=Hiking equipment=141
+food=Dessert=144
+food=Wine rack=145
+food=Drink=146
+food=Zucchini=147
+places=Dinosaur=153
+sport places=Cricket ball=156
+food=Winter melon=157
+food=Guacamole=166
+activity places=Roller skates=179
+food=Coffee cup=180
+sport places=Volleyball=186
+food=Coffee=190
+food=Food=194
+food=Fruit=204
+food=French fries=205
+food=Tart=209
+activity places=Treadmill=210
+sport places=Golf cart=216
+food=Egg=218
+places=Guitar=220
+food=Grape=224
+sport places=Baseball bat=236
+sport places=Baseball glove=237
+activity places=Bicycle helmet=251
+food=Saucer=252
+food=Drinking straw=263
+activity places=Punching bag=273
+food=Common fig=274
+food=Cocktail shaker=275
+sport places=Golf ball=277
+food=Tableware=283
+food=Bottle=287
+activity sport=Dumbbell=292
+activity places=Billiard table=298
+places=Musical instrument=302
+food=Frying pan=304
+places=Bust=308
+food=Waffle iron=310
+food=Milk=311
+food=Plate=313
+food=Baked goods=315
+food=Mushroom=316
+food=Pitcher=318
+sport places=Table tennis racket=321
+sport places=Scoreboard=324
+sport places=Tennis ball=328
+places=Piano=333
+food=Potato=336
+sport places=Sports equipment=338
+food=Pasta=339
+food=Pumpkin=341
+food=Pear=342
+food=Pizza=348
+activity places=Skateboard=354
+places=Sculpture=360
+food=Seafood=363
+food=Submarine sandwich=364
+activity places=Snowboard=365
+places=Picture frame=367 # frame
+food=Sushi=368
+activity places=Ski=4
+food=Tea=384
+food=Taco=386
+food=Strawberry=390
+food=Tomato=393
+food=Cooking spray=397
+activity places=Bowling equipment=399
+sport places=Football helmet=400
+food=Wine=408
+food=Wok=412
+food=Jug=416
+food=Pizza cutter=417
+food=Cream=418
+food=Bread=421
+food=Owl=426
+food=Lemon=436
+food=Banana=440
+food=Wine glass=442
+activity places=Swimming pool=446
+food=Hamburger=461
+food=Lobster=465
+food=Asparagus=466
+food=Oyster=473
+food=Ice cream=478
+food=Orange=482
+places=Castle=488
+food=Peach=493
+food=Coconut=494
+food=Squash=501
+sport places=Racket=502
+food=Vegetable=505
+food=Shellfish=511
+food=Cabbage=512
+food=Carrot=513
+food=Mango=514
+food=Pineapple=517
+food=Cake=521
+food=Candy=531
+food=Salad=532
+sport places=Sports uniform=541
+sport places=Tennis racket=542
+food=Kitchen & dining room table=545
+food=Cake stand=547
+food=Broccoli=557
+food=Pastry=559
+food=Grapefruit=560
+food=Bell pepper=563
+food=Pomegranate=566
+food=Doughnut=567
+food=Watermelon=577
+food=Cantaloupe=578
+sport places=Balance beam=581
+food=Sandwich=582
+food=Shrimp=583
+activity places=Rays and skates=586
+sport places=Rugby ball=599

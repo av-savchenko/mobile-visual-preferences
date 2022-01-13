@@ -1,0 +1,104 @@
+places=amusement arcade=7
+places=amusement park=8
+places=aquarium=11
+places=archaelogical excavation=15
+sport places=hockey=17
+places=arena (performance)=18
+places=rodeo=19
+places=art gallery=21
+places=art studio=23,24 #/artists loft
+sport places=athletic field=26,27 #indoor/outdoor
+places=badlands=33 #mountain
+sport places=badminton court=34
+food=bakery shop=36
+food=bar=44
+sport places=baseball=47,366 #field/stadium
+sport places=basketball court=49,50 #indoor/outdoor
+places=beach trip=55,109 #/coast
+hotel=bedroom=59
+food=beer hall=61
+activity places=bowling alley=72
+sport places=boxing=73 #ring
+places=bullring=77
+places=butte=82 #mountain
+food=cafeteria=84
+places=canal=87,88 #natural,urban
+food=candy store=89
+places=carrousel=92
+places=casino=93 #indoor
+places=castle=94
+places=catacomb=95
+places=cliff=106 #mountain
+food=coffee shop=111
+places=corral=117
+places=creek=124 #river
+places=crevasse=125 #mountain
+food=delicatessen=129
+food=diner=135
+food=dining room=138,139 #dining hall/room
+places=discotheque=140
+food=fastfood restaurant=162
+food=food court=174
+sport places=football=175,363,367,368 #football field/soccer field/stadium football/soccer
+places=fountain=181
+places=glacier=191
+sport places=golf=192
+hotel=hotel outdoor=213
+hotel=hotel room=214
+food=ice cream parlor=217
+activity places=ice skating rink=220,221 #indoor,outdoor
+hotel=inn outdoor=225
+places=kasbah=233
+places=kennel=235 #outdoor
+places=lagoon=239
+places=lake=240 #natural
+activity places=martial arts gym=264
+places=mosque=269 #outdoor
+hotel=motel=270
+places=mountain=271,272,273 #path,snowy
+places=movie theater=274
+places=museum=275 #indoor
+places=music studio=278
+places=natural history museum=279
+places=ocean=285
+places=orchestra pit=294
+places=pagoda=296
+places=palace=297
+places=park=299
+places=pier=311
+food=pizza=312 #pizzeria
+places=pond=317
+places=promenade=322
+food=pub=324 #indoor
+sport places=racecourse=325
+sport places=raceway=326
+activity places=raft=327
+hotel=reception=331
+food=restaurant=336
+food=restaurant kitchen=337
+food=restaurant patio=338
+places=river=340#--
+places=rock arch=341 #mountain
+places=rope bridge=343
+places=ruin=344
+places=science museum=349
+activity places=ski resort=357
+activity places=ski slope=358
+places=snowfield=362 #mountain
+sport places=squash court=364
+places=stage=369,370 #indoor,outdoor
+food=sushi bar=377 #--
+activity places=swimming hole=379
+activity places=swimming pool=380,381 #indoor/outdoor
+places=synagogue=382
+places=temple Asia=386
+sport places=tennis court=387,388 #indoor/outdoor
+places=underwater ocean deep=403
+places=volcano=412
+sport places=volleyball court=413,414 #indoor/outdoor
+places=water park=418
+places=waterfall=420
+places=wave=422
+food=wet bar=423
+hotel=youth hostel=430
+places=zen garden=431

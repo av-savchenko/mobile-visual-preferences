@@ -1,0 +1,70 @@
+activity places=aerobics=1
+holidays=Afrika Burn=2
+activity places=angler=3
+holidays=Annual Buffalo Roundup=4
+holidays=Aomori Nebuta=5
+holidays=Asakusa Samba Carnival=6
+holidays=Ballon Fiesta=7
+holidays=Beltane Fire=8
+holidays=Boryeong Mud=10
+holidays=Carnival Rio=11
+holidays=Carnival of Venice=12
+holidays=Cascamorras=13
+holidays=Castellers=14
+holidays=Cheongdo Bullfighting Festival=15
+holidays=Chinese New Year=16
+holidays=Christmas=17
+holidays=Correfocs=18
+holidays=Crop over=19
+places=cruise=20
+holidays=Desert Festival of Jaisalmer=22
+holidays=Diada de Sant Jordi=23
+holidays=Diwali Festival of Lights=24
+holidays=Falles=25
+holidays=Galungan=27
+holidays=Gion matsuri=28
+activity places=gymnastics=30
+holidays=Hajj=31
+holidays=Halloween=32
+holidays=Harbin Ice and Snow Festival=33
+holidays=Helsinki Samba Carnaval=34
+holidays=Highland Games=35
+holidays=Holi Festival=36
+holidays=Infiorata di Genzano=37
+holidays=Junkanoo=38
+holidays=Keene Pumpkin=39
+holidays=La Tomatina=40
+holidays=Lewes Bonfire=41
+holidays=Macys Thanksgiving=42
+holidays=Maslenitsa=43
+places=Matador Bullfighter=44
+holidays=Monkey Buffet Festival=46
+places=museum=47
+holidays=Naadam Festival=48
+places=nature trip=49
+holidays=Oktoberfest=50
+holidays=Phi Ta Khon=52
+holidays=Pingxi Lantern Festival=54
+holidays=Pushkar Camel=55
+holidays=Quebec Winter Carnival=56
+holidays=Rath Yatra=57
+activity places=running=58
+holidays=Sandfest=59
+holidays=Sapporo Snow Festival=60
+holidays=Songkran Water=61
+activity places=spa=62
+holidays=Saint Patricks Day=63
+holidays=Thaipusam=65
+holidays=Thrissur Pooram=66
+holidays=Tokushima Awa Odori Festival=67
+holidays=Tour de France=68
+holidays=Vancouver Symphony of Fire=69
+places=beach trip=73
+places=business activity=74
+places=concert=75
+activity places=personal sports=76
+places=show=78
+sport places=sports=79
+places=theme park=80
+places=urban trip=81
+places=zoo=82

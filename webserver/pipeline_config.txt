@@ -1,0 +1,44 @@
+[DEFAULT]
+#Path to the directory with Tensorflow object detection models. It should contain directories 'ssd_resnet101_v1_fpn_shared_box_predictor_oid_512x512_sync_2019_01_20' and 'faster_rcnn_inception_resnet_v2_atrous_oid_v4_2018_12_12'
+#ObjectDetectionModelsPath=/opt/lab/tf_models/downloaded_models
+ObjectDetectionModelsPath=D:/src_code/DNN_models/object_detection
+
+#Path to the directory with research directory from Tensorflow models (for object detection)
+#TensorflowModelsPath=/opt/lab/tf_models/research
+TensorflowModelsPath=D:/src_code/models/research
+
+#1 - display only categories for travel data, 0 - display all categories
+FilterTravelData=1
+
+#minimum number of objects to display
+MinNumberOfObjectsToDisplay=2
+
+#minimum number of scenes to display
+MinNumberOfScenesToDisplay=2
+
+#1- process video files, 0-ignore videos
+ProcessVideoFiles=0
+
+#0 - analyze demography and cluster faces, 0 - do not process faces
+ProcessFaces=0
+
+#minimum number of days between difference of max/min modification dates of files from cluster
+MinDaysDifferenceBetweenPhotoMDates=0
+#MinDaysDifferenceBetweenPhotoMDates=2
+
+#minimum number of photos in a cluster
+MinNumberOfPhotosInDisplayedCluster=3
+#MinNumberOfPhotosInDisplayedCluster=5
+
+#minimum number of frames in a cluster extracted from a video clip
+MinNoFrames=10
+
+#distance threshold for clustering
+DistanceThreshold=0.78
+
+#minimum width (in percent) of face to set 'private' status to a photo
+MinFaceWidthPercent=7
+
+#directory with photos
+#InputDirectory=D:/src_code/multimodal-pdmi-2020/visual_data/downloaded_photos
+InputDirectory=downloaded_photos

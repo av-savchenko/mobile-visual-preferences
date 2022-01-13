@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Instagram parser</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div style="text-align: center;">
+    <form>
+        <a href="index.html">Go back</a><br>
+        <br>Choose a photo <br>
+        <INPUT id="photo" type="file" accept="image/jpeg, image/png"><br>
+        <b>Select city for recommendation</b>
+        <select id="city">
+        <option value="Toronto">Toronto</option>
+        <option value="Las Vegas">Las Vegas</option>
+        <option value="Phoenix">Phoenix</option>
+        <option value="Montréal">Montréal</option>
+        <option value="Charlotte">Charlotte</option>
+        <option value="Calgary">Calgary</option>
+        <option value="Pittsburgh">Pittsburgh</option>
+        <option value="Scottsdale">Scottsdale</option>
+        <option value="Cleveland">Cleveland</option>
+        <option value="Mesa">Mesa</option>
+        <option value="Mississauga">Mississauga</option>
+        <option value="Madison">Madison</option>
+        <option value="Tempe">Tempe</option>
+        <option value="Henderson">Henderson</option>
+        <option value="Chandler">Chandler</option>
+        <option value="Markham">Markham</option>
+        <option value="Glendale">Glendale</option>
+        <option value="Gilbert">Gilbert</option>
+        <option value="Richmond Hill">Richmond Hill</option>
+        <option value="Scarborough">Scarborough</option>
+        <option value="Brampton">Brampton</option>
+        <option value="Champaign">Champaign</option>
+        <option value="North York">North York</option>
+        <option value="Vaughan">Vaughan</option>
+        <option value="Peoria">Peoria</option>
+        <option value="North Las Vegas">North Las Vegas</option>
+        <option value="Concord">Concord</option>
+        <option value="Etobicoke">Etobicoke</option>
+        <option value="Surprise">Surprise</option>
+        <option value="Laval">Laval</option>
+        <option value="Matthews">Matthews</option>
+        <option value="Goodyear">Goodyear</option>
+        <option value="Akron">Akron</option>
+        <option value="Gastonia">Gastonia</option>
+        <option value="Avondale">Avondale</option>
+        <option value="Fort Mill">Fort Mill</option>
+        <option value="Mentor">Mentor</option>
+        <option value="Newmarket">Newmarket</option>
+        <option value="Lakewood">Lakewood</option>
+        <option value="Huntersville">Huntersville</option>
+        <option value="Aurora">Aurora</option>
+        <option value="Oakville">Oakville</option>
+        <option value="Thornhill">Thornhill</option>
+        <option value="Strongsville">Strongsville</option>
+        <option value="Cuyahoga Falls">Cuyahoga Falls</option>
+        <option value="Ajax">Ajax</option>
+        <option value="Pickering">Pickering</option>
+        <option value="Whitby">Whitby</option>
+        <option value="Urbana">Urbana</option>
+        <option value="Middleton">Middleton</option>
+        <option value="Westlake">Westlake</option>
+        <option value="Monroeville">Monroeville</option>
+        <option value="North Olmsted">North Olmsted</option>
+        <option value="Rock Hill">Rock Hill</option>
+        <option value="Cornelius">Cornelius</option>
+        <option value="Medina">Medina</option>
+        <option value="Paris">Paris</option>
+        <option value="New York">New York</option>
+        <option value="London">London</option>
+        <option value="Rome">Rome</option>
+        <option value="Milan">Milan</option>
+        <option value="Florence">Florence</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Edinburgh">Edinburgh</option>
+        <option value="Bangkok">Bangkok</option>
+        <option value="Paradise">Paradise</option>
+        <option value="Sydney">Sydney</option>
+        <option value="Chicago">Chicago</option>
+        <option value="San Antonio">San Antonio</option>
+        <option value="Venice">Venice</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Orlando">Orlando</option>
+        <option value="Seoul">Seoul</option>
+        <option value="Madrid">Madrid</option>
+       </select><br><br>        
+        <button class="button" onclick="download(); return false">Analyze</button><br>
+        <p id="error" style="color:red;"> </p><br><br>
+        <img src="" id="loading" alt=""><br><br>
+        <div class="display_image">
+            <img class="autoscale" src="" id="downloaded_image" alt="">
+        </div>
+        <div class="row">
+            <p id="scenes" style="color:black;"> </p>
+        </div>
+        <div class="row">
+            <p id="objects" style="color:black;"> </p>
+        </div>
+        <div class="row">
+            <p id="restaurants" style="color:black;"> </p>
+        </div>
+    </form>
+</div><br><br>
+<span id="placeholder"></span>
+<script src="single_image.js"></script>
+</body>
+</htmL>
